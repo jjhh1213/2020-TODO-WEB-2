@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2020 투두웹</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div class="js-weather font weather"></div>
+    <div class="js-humidity font weather"></div>
+    <div class="js-maxWeather font weather"></div>
+    <div class="js-minWeather font weather"></div>
+    <div class="js-clock font">
+      <h1>00:00</h1>
+    </div>
+    <form class="js-form form font">
+      <input
+        type="text"
+        placeholder="당신의 이름을 입력해주세요."
+        class="formStyle nameInput"
+      />
+    </form>
+    <h4 class="js-greetings greetings font"></h4>
+    <form class="js-toDoForm toDoForm font">
+      <input type="text" placeholder="할일을 적어주세요 :)" class="formStyle" />
+    </form>
+    <ul class="js-toDoList font"></ul>
+    <script src="clock.js"></script>
+    <script src="greetings.js"></script>
+    <script src="toDoLists.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+  </body>
+</html>
