@@ -20,7 +20,7 @@ body {
 }
 
 .bgImage {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -87,7 +87,8 @@ button {
   border-radius: 100%;
   border: 1px solid white;
   margin-right: 10px;
-  padding: 2px 4px;
+  padding: 2px 5px;
+  outline: none;
 }
 
 input {
