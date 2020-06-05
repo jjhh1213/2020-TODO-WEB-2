@@ -86,7 +86,7 @@ body {
 }
 
 button {
-  font-weight: 600;
+  font-weight: 700;
   background-color: transparent;
   color: white;
   border-radius: 100%;
@@ -103,7 +103,7 @@ input {
 }
 
 .block {
-  font-weight: 600;
+  font-weight: 700;
   text-align: center;
   width: 26%;
   padding: 10px;
