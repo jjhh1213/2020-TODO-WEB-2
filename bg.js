@@ -6,20 +6,18 @@ function handleImgLoad() {
   console.log("finished loading");
 }
 
-function paintImages(imgnumber) {
+function paintImages() {
   const image = new Image();
-  image.src = `images/${imgnumber + 1}.PNG`;
+  image.src = "images/2.PNG";
   image.classList.add("bgImage");
   body.prepend(image);
 }
 
 function genRandom() {
-  const number = Math.floor(Math.random() * IMAGE_NUMBER);
   return number;
 }
 
 function init() {
-  const randomNumber = genRandom();
-  paintImages(randomNumber);
+  paintImages();
 }
 init();
